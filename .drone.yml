@@ -1,8 +1,11 @@
 kind: pipeline
+type: docker
 name: default
 
 steps:
-- name: greetings
+- name: greeting
   image: alpine
   commands:
   - env
+  - echo hello
+  - echo world
