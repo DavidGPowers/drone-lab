@@ -13,7 +13,7 @@ steps:
   image: busybox
   commands:
   - echo hello world
-  - env
+  - env | sort
  
 trigger:
   branch:
