@@ -14,7 +14,7 @@ steps:
   commands:
   - echo hello world
   - env | sort
-  - find / -type f -print0 | xargs -0 ls -l
+  - find /drone -type f -print0 | xargs -0 ls -l
  
 trigger:
   branch:
